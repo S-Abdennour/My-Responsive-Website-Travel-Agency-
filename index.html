@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agency</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/steps-icon-3.png"
+      type="image/x-icon"
+    />
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav data-aos="fade-down" class="header__nav">
+        <div class="header__nav-logo">
+          <h2>Travel Agency <span class="logo-point">.</span></h2>
+        </div>
+        <ul class="sidebar">
+       
+            <img  onclick=closeSidebar()  src="assets/close.svg" alt="close" width="40px" > 
+            <a href="#HOME"> HOME</a>
+            <a href="#DESTINATION">DESTINATION</a>
+            <a href="#CIRCUITS">CIRCUITS</a>
+            <a href="#CONTACT">CONTACT</a>
+        </ul>
+
+        <ul class="header__nav-list">
+          <li class="hideOnMobile" ><a href="#HOME">HOME</a></li>
+          <li class="hideOnMobile"><a href="#DESTINATION">DESTINATION</a></li>
+          <li class="hideOnMobile"><a href="#CIRCUITS">CIRCUITS</a></li>
+          <li class="hideOnMobile"><a href="#CONTACT">CONTACT</a></li>
+          
+          <li onclick=showSidebar() > <a href="#"> <img src="assets/menu.svg" alt="menu" width="40px" >  </a> </li>
+
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home" id="HOME">
+      <div data-aos="fade-down" class="home__title">
+        <h2>ORGANIZE YOUR</h2>
+        <h1 class="home__title-trips">TRIPS</h1>
+      </div>
+      <button data-aos="fade-down" class="home__button">This way</button>
+    </section>
+
+    <section data-aos="flip-up" data-aos-delay="50" class="plan" id="CIRCUITS">
+      <article class="plan-container">
+        <img src="assets/steps-icon-1.png" alt="icon1" />
+        <h2>PLAN</h2>
+        <p>
+          Entrust us whith your dreams of escape with family or friend, we will
+          find the formula that will meet your expectations.
+        </p>
+      </article>
+
+      <article class="plan-container">
+        <img class="icon2" src="assets/steps-icon-2.png" alt="icon2" />
+        <h2>ORGANIZE</h2>
+        <p>
+          Benefit from the expertise of our specialists in each destination.
+          they will accompany you in the realization of your trip.
+        </p>
+      </article>
+
+      <article class="plan-container">
+        <img class="icon3" src="assets/steps-icon-3.png" alt="icon3" />
+        <h2>TRAVEL</h2>
+        <p>
+          We thake care of ensuring your safety and ensuring your complete
+          please of mind throughout your trip.
+        </p>
+      </article>
+    </section>
+
+    <section class="article" id="DESTINATION">
+      <article class="card-container">
+        <div data-aos="flip-down" data-aos-delay="50" class="card">
+          <div class="card-cont">
+            <div class="border">
+              <h1>GO WITH</h1>
+              <h1 class="family">THE FAMILY</h1>
+            </div>
+            <p class="para">
+              Give the best to those you love and share fabulous moments!
+            </p>
+            <button class="btn1">More info</button>
+          </div>
+
+          <div class="card-content-img">
+            <img src="assets/article-image-1.jpg" alt="article1" />
+          </div>
+        </div>
+      </article>
+
+      <article class="card-container">
+        <div data-aos="flip-down" data-aos-delay="100" class="card">
+          <div class="card-cont">
+            <div class="border">
+              <h1>WANT TO</h1>
+              <h1 class="escape">ESCAPE</h1>
+            </div>
+            <p class="para">
+              Sometimes a little escape would be welcome and would do the
+              greatest good!
+            </p>
+            <button class="btn2">More info</button>
+          </div>
+
+          <div class="card-content-img">
+            <img src="assets/article-image-2.jpg" alt="article2" />
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="contact" id="CONTACT">
+      <div data-aos="zoom-in" class="contact__contain">
+        <h2>CONTACT US</h2>
+        <div class="half-line"></div>
+        <p>
+          At Travel Agency we know that traveling is a human adventure but also
+          an important financial commitment for you. This is why we make it a
+          point of honor to take into account each for your expectations to help
+          you in the preparation of your stay. citcuit or tailor-made trip.
+        </p>
+
+        <form class="input-element">
+          <label for="username">Full name </label>
+          <input
+            type="text"
+            id="username"
+            name="Full name"
+            placeholder="Votre nom"
+          />
+          <label for="email">E-mail </label>
+          <input
+            type="email"
+            id="email"
+            name="E-mail"
+            placeholder="Votre email"
+          />
+          <button class="OK" type="submit">OK</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__title">
+        <h1 data-aos="fade-up">
+          Travel Agency<span class="title.poin">.</span>
+        </h1>
+        <p>Copyright &copy; All right reserved.</p>
+      </div>
+    </footer>
+    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,88 @@
+ .contact
+{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:25px 0px 60px 0px;
+
+}
+.contact__contain
+{   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 58%; */
+    font-family: sans-serif;
+    color: rgba(55, 52, 49, 0.913);
+    flex-wrap: wrap;
+    
+
+}
+.contact__contain p{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.contact__contain h2{
+    margin:22px;
+}
+.half-line
+{
+    background-color:rgba(0, 229, 255, 0.934); 
+    width: 40%;
+    height: 2px;
+    margin-bottom: 20px ;
+}
+.contact__contain p{
+    font-size: 19px;
+}
+.input-element
+{   display: flex;
+    margin-top: 55px;
+    display: flex;
+    
+    
+}
+label
+{
+    display: flex;
+    padding: 15px;
+}
+input
+{  
+    display: flex;
+    padding: 10px;
+    color: rgba(55, 52, 49, 0.913);
+    font-family: sans-serif;
+    width: 220px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1.5px solid rgba(55, 52, 49, 0.308);
+    outline: none;
+}
+
+.OK
+{
+    padding: 8px 15px 8px 15px;
+    font-size: 19px;
+    background-color:rgba(0, 229, 255, 0.934); 
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+.OK:hover
+{
+    background-color:rgb(22, 218, 240); 
+
+}
+.OK:active
+{
+        transform:scale(0.97);
+
+} 

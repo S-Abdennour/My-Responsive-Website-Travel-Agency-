@@ -1,0 +1,54 @@
+.home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    overflow: hidden;
+    background-image:url("../../assets/main.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    height: 72vh;
+    margin-bottom: 60px;
+   
+}
+.home__title
+{
+   color: rgba(0, 0, 0, 0.723);
+   font-weight: 200;
+    font-size: 25px;
+   
+}
+.home__title-trips
+{
+ text-align: center;
+ font-weight: 900;
+ position: relative;
+ font-size: 40px; 
+ bottom:  20px;
+
+}
+.home__button{
+
+    padding: 12px 35px 12px 35px;
+    color: #fff;
+    background-color:rgba(255, 149, 49, 0.935); 
+    font-weight: 500;
+    font-size: 23px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Bebas Neue", sans-serif;
+    cursor: pointer;
+   
+}
+.home__button:hover
+{
+    background-color:rgb(255, 123, 0); 
+
+}
+.home__button:active
+
+{   
+        background-color:rgba(0, 229, 255, 0.934); 
+}

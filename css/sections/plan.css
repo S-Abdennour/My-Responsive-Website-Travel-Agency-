@@ -1,0 +1,65 @@
+.plan
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px 0px 60px 0px;
+    padding: 0px;
+}
+.plan-container
+{   display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vh;
+    text-align: center;
+
+}
+.plan-container h2
+
+{   
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
+    color: rgba(55, 52, 49, 0.913);
+
+
+}
+.plan-container  img{
+    object-fit: contain;
+    width: 13vh;
+}
+.plan-container p
+{
+     color: rgba(55, 52, 49, 0.913);
+        font-family: sans-serif;
+        font-size: 14px;
+}
+.plan-container h2{
+    position: relative;
+    top:15px;
+    font-family: sans-serif;
+        color: rgba(55, 52, 49, 0.913);
+
+}
+.plan-container p{
+        color: rgba(55, 52, 49, 0.913);
+        font-family: sans-serif;
+        font-size: 14px;
+}
+
+
+.plan-container h2{
+    position: relative;
+    top: 15px;
+    font-family: sans-serif;
+    color: rgba(55, 52, 49, 0.913);
+}
+.plan-container p
+{
+ color: rgba(55, 52, 49, 0.913);
+ font-family: sans-serif;
+ font-size: 14px;
+}

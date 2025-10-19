@@ -1,0 +1,117 @@
+.article
+
+{  
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0 40px 0 ;
+    background-color: rgba(0, 0, 0, 0.071);
+     flex-wrap: wrap;
+
+}
+.card-container
+{   
+    display: flex;
+    flex-wrap: wrap;
+   border-radius: 8px;
+   border: none;
+   border-color: rgba(0, 0, 0, 0);
+   background-color: #fff;
+   box-shadow: 3px 3px 3px   rgba(0, 0, 0, 0.189) ;
+}
+.card{
+display: flex;
+width: 450px;
+border-radius: 8px;
+overflow: hidden;
+text-align: center;
+}
+.card-cont
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    color:rgba(55, 52, 49, 0.913);
+    width: 50%;
+    padding: 10px;
+    
+}
+
+.card-content-img img 
+{
+    height: 100%;
+    width: 250px;
+  border-radius: 0px 8px 8px 0px;
+}
+.card-cont h1{
+    font-size: 28px;
+   
+}
+
+.family
+
+{
+    position: relative;
+    bottom:  10px;
+}
+.escape
+
+{
+    position: relative;
+    bottom:  10px;
+}
+.border
+{
+border-bottom: 2px solid #ccc;
+
+}
+.btn1
+{  padding: 8px;
+    width: 65%;
+    background-color:rgba(255, 149, 49, 0.935); 
+    border-radius:8px ;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    bottom:13px;
+}
+.para
+{
+    position: relative;
+    bottom: 5px;
+}
+.btn2
+{
+    
+    position: relative;
+    bottom: 13px;
+    padding: 8px;
+    width: 65%;
+    background-color:rgba(255, 149, 49, 0.935); 
+    border-radius:8px ;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.btn1:hover
+{
+        background-color:rgba(0, 229, 255, 0.934); 
+
+}
+.btn2:hover
+{
+        background-color:rgba(0, 229, 255, 0.934); 
+}
+.btn1:active
+{
+    transform:scale(0.97);
+}
+.btn2:active
+{
+    transform:scale(0.97);
+}
+
+

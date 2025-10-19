@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+@import url("sections/header.css");
+@import url("sections/home.css");
+@import url("sections/plan.css");
+@import url("sections/article.css");
+@import url("sections/contact.css");
+@import url("sections/footer.css");
+
+/* display size of website */
+
+#viewport-size {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+
+}
+/* end size */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* start resposive media query */
+
+/* start header sections */
+
+@media (max-width: 1000px) {
+  .header__nav-list
+   {
+    flex:none;
+    margin:0px 10px 0px 0px;
+    padding: 0px;
+    
+
+  }
+  .header__nav-logo
+  {
+    margin-left: 20px;
+  }
+}
+@media (max-width:481px)
+{
+  .header__nav-logo
+   {  margin-left: 5px;
+      font-size: 17.5px;
+   }
+
+}
+@media (max-width: 770px)
+{
+
+  .hideOnMobile
+  { 
+    display: none;
+  }
+}
+@media (min-width: 770px)
+{
+  .header__nav-list img
+   {
+    display:none;
+
+   }
+}
+
+/* END header sections */
+
+
+/* Start Plan sections */
+
+@media (max-width:750px)
+{ 
+  .plan
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+
+  }
+  
+}
+
+@media (max-width:430px)
+{ .plan
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+
+  }
+  .plan-container img
+  {
+    width: 90px;
+    object-fit: contain;
+  }
+ 
+}
+
+/* END Plan sections */
+
+/* Start Card sections */
+
+@media (max-width:440px)
+{
+  .card
+  {
+      width: 390px ;
+      
+     
+    
+  }
+}
+@media (max-width:380px)
+{
+  .card
+  {
+      width: 370px ;
+  }
+}
+@media (min-width:470px)
+{
+  .card-container
+  {
+    height:280.25px ;
+  }
+}
+
+/* END Card sections */
+
+
+@media (max-width: 760px)
+{
+  .input-element
+  {
+    flex-direction: column;
+    margin-top: 10px;
+    margin:0px !important;
+  }
+  .OK
+  {
+     margin-top: 10px;
+  }
+  label
+  {
+    padding: 12px 1px 11px 4px;
+  }
+}
+
+
+/* End resposive media query */
+
