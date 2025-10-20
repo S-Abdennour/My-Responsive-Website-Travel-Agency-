@@ -32,7 +32,7 @@
         </div>
         <ul class="sidebar">
        
-            <img  onclick=closeSidebar()  src="assets/close.svg" alt="close" width="40px" > 
+            <img  onclick="closeSidebar(); showmenuico();"  src="assets/close.svg" alt="close" width="40px" > 
             <a href="#HOME"> HOME</a>
             <a href="#DESTINATION">DESTINATION</a>
             <a href="#CIRCUITS">CIRCUITS</a>
@@ -45,7 +45,7 @@
           <li class="hideOnMobile"><a href="#CIRCUITS">CIRCUITS</a></li>
           <li class="hideOnMobile"><a href="#CONTACT">CONTACT</a></li>
           
-          <li onclick=showSidebar() > <a href="#"> <img src="assets/menu.svg" alt="menu" width="40px" >  </a> </li>
+        <li onclick="showSidebar(); closeSidebarmenu();" > <a href="#"> <img class="MenuImage" src="assets/menu.svg" alt="menu" width="40px" >  </a> </li>
 
         </ul>
       </nav>
@@ -56,7 +56,7 @@
         <h2>ORGANIZE YOUR</h2>
         <h1 class="home__title-trips">TRIPS</h1>
       </div>
-      <button data-aos="fade-down" class="home__button">This way</button>
+     <a href="#DESTINATION"> <button  data-aos="fade-down" class="home__button" >This way</button></a> 
     </section>
 
     <section data-aos="flip-up" data-aos-delay="50" class="plan" id="CIRCUITS">

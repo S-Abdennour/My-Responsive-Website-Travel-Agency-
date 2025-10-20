@@ -13,3 +13,12 @@
         const sidebar = document.querySelector('.sidebar');
         sidebar.style.display = 'none';
     }
+     function closeSidebarmenu() {
+        const sidebar = document.querySelector('.MenuImage');
+        sidebar.style.display = 'none';
+    }
+    function showmenuico()
+    {
+       const sidebar = document.querySelector('.MenuImage');
+        sidebar.style.display = 'flex';
+    }
