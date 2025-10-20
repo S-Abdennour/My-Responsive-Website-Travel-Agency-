@@ -57,7 +57,7 @@ nav {
 .sidebar
 {   
     flex-direction: column;
-    position: fixed;
+    position: absolute;
     right: 0px;
     top: 0px;
     background-color: rgba(0, 0, 0, 0.076);
@@ -102,4 +102,3 @@ nav {
       color: rgba(255, 149, 49, 0.935);
 
 }
-

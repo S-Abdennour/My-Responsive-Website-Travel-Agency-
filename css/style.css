@@ -87,7 +87,7 @@ html, body {
   
 }
 
-@media (max-width:430px)
+@media (max-width:505px)
 { .plan
   {
     margin-left: 15px;
@@ -96,12 +96,20 @@ html, body {
   }
   .plan-container img
   {
-    width: 90px;
+    width: 110px;
     object-fit: contain;
   }
  
 }
-
+@media(max-width:385px)
+{
+  .plan-container img
+  {
+    width: 93px;
+    object-fit: contain;
+  }
+ 
+}
 /* END Plan sections */
 
 /* Start Card sections */
