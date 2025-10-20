@@ -86,6 +86,12 @@ html, body {
   }
   
 }
+@media (max-width:1000px)
+{
+  .plan-container img{
+      width: 50%;
+  }
+}
 
 @media (max-width:505px)
 { .plan
@@ -105,7 +111,7 @@ html, body {
 {
   .plan-container img
   {
-    width: 93px;
+    width: 92px;
     object-fit: contain;
   }
  

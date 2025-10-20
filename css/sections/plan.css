@@ -1,7 +1,7 @@
 .plan
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px;
     margin: 0px 0px 60px 0px;
     padding: 0px;
