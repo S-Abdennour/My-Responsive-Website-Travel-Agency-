@@ -20,14 +20,15 @@
     font-size: 25px;
    
 }
+.home__title h2{
+margin-bottom: 20px;
+}
 .home__title-trips
 {
  text-align: center;
  font-weight: 900;
- position: relative;
  font-size: 40px; 
- bottom:  20px;
-
+ margin-top: 0px;
 }
 .home__button{
 
