@@ -119,58 +119,37 @@ html, body {
 /* END Plan sections */
 
 /* Start Card sections */
-
-@media (max-width:440px)
+@media (max-width: 970px)
 {
-  .card
+.article
   {
-      width: 390px ;
-      
-     
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
-@media (max-width:380px)
-{
-  .card
-  {
-      width: 370px ;
-  }
-}
-@media (min-width:470px)
-{
-  .card-container
-  {
-    height:280.25px ;
-  }
-}
-@media (min-width: 443px) and (max-width: 475px)
+@media (max-width: 470px)
 {
   .card-container
   {
     width: 95%;
+    height:85%;
   }
-}
-@media (min-width: 420px) and (max-width: 442px)
-{
-  .card-container
-  {
-    width: 88%;
-  }
- .border h1
- {
-  font-size: 22px;
- }
-}
-@media (max-width:415px)
-{
-  .card-container
-  {
-    width: 95%;
 
-  }
- 
 }
+
+
+@media (max-width: 375px)
+{
+  .btn1
+  {
+    position: relative;
+    bottom: 15px;
+  }
+}
+
+
 /* END Card sections */
 
 
