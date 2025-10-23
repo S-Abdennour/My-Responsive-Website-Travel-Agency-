@@ -43,6 +43,10 @@ nav {
     font-style: normal;
     cursor: pointer;
 }
+.header__nav-list img
+{
+
+}
 
 .header__nav-list li :hover
 {

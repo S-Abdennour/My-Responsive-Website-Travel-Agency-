@@ -36,10 +36,9 @@ html, body {
   .header__nav-list
    {
     flex:none;
-    margin:20 10px 20 20;
+    margin:20px 10px 20px 20px;
     padding: 20;
     
-
   }
   .header__nav-logo
   {
@@ -54,20 +53,24 @@ html, body {
    }
 
 }
-@media (max-width: 770px)
+@media (max-width: 790px)
 {
+  .header__nav-list
+  {
+    margin-right: 10px;
+  }
 
   .hideOnMobile
   { 
     display: none;
   }
 }
-@media (min-width: 770px)
+@media (min-width: 790px)
 {
   .header__nav-list img
    {
     display:none;
-
+    
    }
 }
 
