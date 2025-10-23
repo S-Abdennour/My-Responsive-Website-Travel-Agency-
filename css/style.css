@@ -36,8 +36,8 @@ html, body {
   .header__nav-list
    {
     flex:none;
-    margin:0px 10px 0px 0px;
-    padding: 0px;
+    margin:20 10px 20 20;
+    padding: 20;
     
 
   }
@@ -76,46 +76,35 @@ html, body {
 
 /* Start Plan sections */
 
-@media (max-width:750px)
-{ 
-  .plan
-  {
-    margin-left: 15px;
-    margin-right: 15px;
 
-  }
-  
-}
-@media (max-width:1000px)
+/* @media (max-width:1000px)
 {
   .plan-container img{
       width: 100px;
   }
-}
-
-@media (max-width:505px)
-{ .plan
-  {
-    margin-left: 15px;
-    margin-right: 15px;
-
-  }
-  .plan-container img
-  {
-    width: 100px;
-    object-fit: contain;
-  }
- 
-}
-@media(max-width:385px)
+} */
+@media (max-width:1040px)
 {
-  .plan-container img
+  .plan
   {
-    width: 92px;
-    object-fit: contain;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
   }
- 
+  .plan-container1 ,.plan-container2
+  { 
+    margin-bottom: 40px;
+    
+  }
+  .plan img 
+  {
+        width: 15vh;
+
+  }
 }
+
+
 /* END Plan sections */
 
 /* Start Card sections */
@@ -136,22 +125,48 @@ html, body {
     width: 95%;
     height:85%;
   }
-
-}
-
-
-@media (max-width: 375px)
-{
-  .btn1
+  .card-content-img2 img
   {
-    position: relative;
-    bottom: 15px;
+    object-position: 97%;
   }
 }
 
 
-/* END Card sections */
+@media (max-width: 403px)
+{
+  .btn1 
+  {
+   
+     margin-bottom: 30px;
 
+  }
+  .btn2
+  {
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 3px;
+  }
+} 
+@media (max-width: 368px)
+{
+
+ .btn1,.btn2
+ {
+  margin-bottom: 36px;
+  position: relative;
+  bottom: 13px;
+ }
+}
+
+
+/* END Card sections */
+ @media (min-width:760px)
+{
+  .input-element
+  {
+    gap: 10px;
+  }
+}
 
 @media (max-width: 760px)
 {
@@ -159,7 +174,7 @@ html, body {
   {
     flex-direction: column;
     margin-top: 10px;
-    margin:0px !important;
+    margin:20 !important;
   }
   .OK
   {
